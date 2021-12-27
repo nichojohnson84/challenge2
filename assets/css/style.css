@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(163, 150, 117);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px;
+  background: #13293d;
+  color: bisque;
+}
+/* I could not get my navigation to work so taking it out at least made the site look better */
+img {
+  width: 75%;
+  padding-left: 200px;
+}
+
+a {
+  font-size: 22px;
+  color: rgb(26, 28, 145);
+  }
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family:fantasy;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+  padding: 15px;
+  background: #13293d;
+  color: bisque;
+  text-align: center;
+  }
+
+address {
+text-align: right;
+font-size: x-large;
+font-style: normal;
+}
+
+.footer {
+  text-align: center;
+  font-size: larger;
+  font-family: cursive;
+  background: #13293d;
+  color: bisque;
+}
+
