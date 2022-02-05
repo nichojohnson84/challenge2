@@ -18,18 +18,18 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="Bio">A Little About Me</a>
+                            <a href="#Bio">A Little About Me</a>
                         </li>
                         <li>
-                            <a href="The Latest and Greatest">Projects to Check Out</a>
+                            <a href="#The-Latest-and-Greatest">Projects to Check Out</a>
                         </li>
                         <li>
-                            <a href="Contact">How to Reach Me</a>
+                            <a href="#Contact">How to Reach Me</a>
                         </li>
                     </ul>
                 </nav>
           </header>
-          <Section>
+          <Section id="Bio">
             <img src="./assets/images/nieceRizzy.jpg" alt="nieceRizzy">
             <article>
               <h2>Bio</h2>
@@ -40,7 +40,14 @@
               <p>Enjoy your stay at the site where dreams can become reality!</p>
             </article>
           </Section>
-            <h2>The Latest and Greatest</h2>
+            <h2 id="The-Latest-and-Greatest">The Latest and Greatest</h2>
+            <div class="projectContainer">
+              <img src="assets/images/demoShot.jpg"/>
+              <ul>
+              <li><a href="https://darigay.github.io/Fridgician/">Deployed Application</a></li>
+              <li><a href="https://github.com/Darigay/Fridgician.git">GitHub Repo</a></li>
+              </ul>
+            </div>
             <h2>Projects to Checkout</h2>  
             <!--need to create the links that lead to nothing for now because I was stuck on trying to make a fancy backround so long I ran out of time-->
             <table style="width:100%">
@@ -62,7 +69,7 @@
                 </tr>
               </table>
               <!--I could not get this to center or the area to grow-->
-          <section address= "Contact">
+          <section id="Contact">
             <h2>Contact Me</h2>
                 <a href="mailto:nickcjohnson84@outlook.com">nickcjohnson84@outlook.com</a><br>
                 <a href="tel:+13853472932">(385) 347-2932</a>
